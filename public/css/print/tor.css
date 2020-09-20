@@ -1,0 +1,95 @@
+body {
+  margin: 50.8mm 0 0 0;
+}
+
+body,
+table th {
+  font-family: Arial, sans-serif !important;
+}
+
+footer.footer {
+  display: none !important;
+}
+
+h2, h3 {
+  font-size: 20px !important;
+}
+
+h4,
+p {
+  font-size: 16px !important;
+  color: #000 !important;
+}
+
+table {
+  width: 100% !important;
+}
+
+table th {
+  padding: 0 !important;
+}
+
+table th,
+table td {
+  font-size: 16px !important;
+  color: #000 !important;
+  word-break: break-word !important;
+}
+
+table td {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.navbar {
+  display: none !important;
+}
+
+.main-content {
+  margin: 0 !important;
+}
+
+.card-row {
+  margin-top: 0 !important;
+  margin-bottom: 0;
+}
+
+.card-tor {
+  margin-top: -100px;
+  border: none;
+}
+
+.card.shadow {
+  box-shadow: none !important;
+}
+
+.button-group {
+  display: none;
+}
+
+h2 {
+  letter-spacing: 5px;
+}
+
+.note,
+dt,
+dd {
+  color: #000;
+}
+
+.note,
+.table-grading-system th,
+.table-grading-system td {
+  font-size: 12px !important;
+}
+
+.row-info {
+  margin-top: 15px;
+}
+
+.input-tor {
+  margin-top: 2px;
+  padding-left: 0;
+  border: none;
+  color: #000;
+}

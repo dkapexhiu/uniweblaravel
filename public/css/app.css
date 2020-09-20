@@ -1,0 +1,236 @@
+.ql-toolbar {
+  position: relative;
+  padding: .625rem .75rem;
+  color: #8898aa;
+  border: 1px solid #dee2e6;
+  border-radius: .5rem .5rem 0 0;
+  background-color: #fff;
+}
+
+.ql-container {
+  border-radius: 0 0 .5rem .5rem;
+}
+
+.ql-align-center {
+  text-align: center;
+}
+
+.ql-align-justify {
+  text-align: justify;
+}
+
+.ql-align-right {
+  text-align: right;
+}
+
+.badge-float {
+  width: fit-content;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.badge-float.badge-success {
+  background: #93e7c3;
+}
+
+.badge-float.badge-danger {
+  background: #fbafbe;
+}
+
+.badge-float.badge-warning {
+  background: #fec9bd;
+}
+
+.footable-details tr th,
+.footable-details tr td {
+  padding: 3px;
+  border: none !important;
+}
+
+/* POSTS */
+
+.card-img-top-post {
+  height: 200px;
+}
+
+.card-body-post {
+  height: 300px;
+}
+
+.card-text-post {
+  overflow: hidden;
+  height: 5em;
+}
+
+/* Scholastic Records */
+
+table.table-grade {
+  width: 100%;
+}
+
+table.table-grade .description {
+  width: 50%;
+  font-size: 16px;
+}
+
+table.table-grade th {
+  padding: 5px;
+}
+
+table.table-grade td {
+  padding: 10px;
+  margin: 0 10px;
+}
+
+.card-grade h4.warning {
+  letter-spacing: 0.15em;
+}
+
+/* Curriculum with Grades Table */
+table.table-curriculum {
+  width: 100%;
+  margin: 0 !important;
+}
+
+table.table-curriculum th {
+  font-size: 16px;
+}
+
+table.table-curriculum th.w-7 {
+  width: 7%;
+}
+
+table.table-curriculum th.w-8 {
+  width: 8%;
+}
+
+table.table-curriculum th.w-11 {
+  width: 11%;
+}
+
+table.table-curriculum th.w-12 {
+  width: 12%;
+}
+
+table.table-curriculum th.w-18 {
+  width: 18%;
+}
+
+table.table-curriculum .description {
+  width: 31%;
+  font-size: 16px;
+}
+
+table.table-curriculum th {
+  padding: 5px;
+  border: 1px solid #525f7f;
+}
+
+table.table-curriculum td {
+  padding: 10px;
+  margin: 0 10px;
+  border: 1px solid #525f7f;
+}
+
+table.table-curriculum tr th:last-child,
+table.table-curriculum tr td:last-child {
+  border: none;
+}
+
+/* TOR */
+
+.card-tor dd.underline {
+  border-bottom: 1px solid #525f7f;
+}
+
+.card-tor dt,
+.card-tor dd {
+  font-size: 15px;
+}
+
+.card-tor dd {
+  margin: 0;
+}
+
+.card-tor dt {
+  padding-right: 0;
+}
+
+.card-tor .table-tor tbody td {
+  border-top: none;
+  border-bottom: none;
+}
+
+.card-tor .table-tor ,
+.card-tor .table-tor thead tr {
+  border: 5px double #525f7f;
+}
+
+.card-tor td.text-bold {
+  font-weight: bold;
+}
+
+.card-tor .warning {
+  font-weight: bold;
+  letter-spacing: 0.15em;
+}
+
+.card-tor .note {
+  font-size: 14px;
+  line-height: 16px;
+  margin-bottom: 10px;
+}
+
+.card-tor .table-curriculum tr,
+.card-tor .table-curriculum td {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.card-tor .table-grading-system tr,
+.card-tor .table-grading-system td {
+  border: 1px solid #525f7f;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.card-tor .row-info {
+  margin-top: 25px;
+  height: 25px;
+}
+
+.input-tor {
+  height: 15px !important;
+}
+
+/* Students Table */
+
+table.table-students {
+  width: 100%;
+}
+
+table.table-students th {
+  font-size: 16px;
+}
+
+table.table-students th {
+  padding: 5px;
+  border: 1px solid #525f7f;
+}
+
+table.table-students td {
+  padding: 10px;
+  margin: 0 10px;
+  border: 1px solid #525f7f;
+}
+
+/* Encoding of Grades */
+table.table-encode .input-grade {
+  width: 150px;
+  min-width: 125px;
+}
+
+table.table-encode .input-note {
+  width: 200px;
+}
